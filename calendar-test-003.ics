@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Village Hall Test//Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Village Hall Test Calendar
+X-WR-TIMEZONE:Europe/London
+BEGIN:VEVENT
+UID:test-booking-003@villagehall
+DTSTAMP:20260521T100000Z
+DTSTART;TZID=Europe/London:20260603T180000
+DTEND;TZID=Europe/London:20260603T210000
+SUMMARY:Test Hall Booking
+DESCRIPTION:This is a test booking from the Village Hall app.
+LOCATION:Village Hall
+END:VEVENT
+END:VCALENDAR
